@@ -6,6 +6,8 @@ on:
   workflow_dispatch:         # Manual trigger option
 
 jobs:
+permissions:
+  contents: write
   keepAlive:
     runs-on: ubuntu-latest
     steps:
