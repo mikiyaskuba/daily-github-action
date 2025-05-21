@@ -2,14 +2,16 @@ name: Keep GitHub Pages Alive
 
 on:
   schedule:
-    - cron: '0 0 */1 * *'  # Every 1 days at midnight UTC
-  workflow_dispatch:         # Manual trigger option
+    - cron: '0 0 */10 * *'
+  workflow_dispatch:
 
 jobs:
-permissions:
-  contents: write
   keepAlive:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -18,7 +20,7 @@ permissions:
         run: |
           echo "Last updated: $(date)" > timestamp.txt
           git config user.name "Dani"
-          git config user.email "your-email@example.com"
+          git config user.email "danitadesse367@gmail.com"
           git add timestamp.txt
           git commit -m "Keep alive: $(date)"
           git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }} HEAD:main
