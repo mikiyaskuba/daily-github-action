@@ -3,8 +3,8 @@
 Keep your GitHub green, show off your automation skills, and look like a CI/CD boss — all with this sleek daily GitHub Action.
 
 <p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/yourusername/yourrepo/keep-alive.yml?label=Daily%20Update&style=for-the-badge" alt="workflow" />
-  <img src="https://img.shields.io/github/last-commit/yourusername/yourrepo?style=for-the-badge" alt="last commit"/>
+  <img src="https://img.shields.io/github/actions/workflow/status/danitadesse/daily-github-action/keep-alive.yml?label=Daily%20Update&style=for-the-badge" alt="workflow" />
+  <img src="https://img.shields.io/github/last-commit/danitadesse/daily-github-action?style=for-the-badge" alt="last commit"/>
 </p>
 
 ---
@@ -83,5 +83,4 @@ Want to try it yourself?
 MIT — use it, modify it, make it your own.
 
 ---
-
 > 👨‍🚀 Made by [Daniel Tadesse](https://github.com/danitadesse/danitadesse) — just a dev who automates everything and loves making things smarter, not harder.
