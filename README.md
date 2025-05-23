@@ -84,4 +84,4 @@ MIT — use it, modify it, make it your own.
 
 ---
 
-> 👨‍🚀 Made by [Daniel Tadesse](/https://github.com/danitadesse/) — just a dev who automates everything and loves making things smarter, not harder.
+> 👨‍🚀 Made by [Daniel Tadesse](https://github.com/danitadesse/danitadesse) — just a dev who automates everything and loves making things smarter, not harder.
