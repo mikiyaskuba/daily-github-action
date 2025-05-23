@@ -2,7 +2,7 @@ name: Keep GitHub Pages Alive
 
 on:
   schedule:
-    - cron: '*/1 * * * *' # Runs daily at midnight UTC
+    - cron: '*/15 * * * *' # Runs daily at midnight UTC
   workflow_dispatch:
 
 permissions:
