@@ -22,8 +22,8 @@ jobs:
 
       - name: 🔐 Configure Git and Commit
         run: |
-          git config user.name "Dani"
-          git config user.email "danitadesse367@gmail.com"
+          git config user.name "mikiyaskuba"
+          git config user.email "bigdream070707@gmail.com"
           git add timestamp.txt
           git commit -m "Keep alive: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           git push
